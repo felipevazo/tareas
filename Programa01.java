@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 
 package programa01;
 import java.util.Scanner;
@@ -14,14 +10,15 @@ public class Programa01 {
 static Scanner entrada=new Scanner(System.in);
 static int N,mrepr,hapr,k,mapr;
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         N=tamaño();
        String Matriz[][]=new String [N][2];
        encuestado(Matriz);
        resumen(Matriz);
+       /* Me vi obligado a hacerlo de esta forma.
+       Debido a que no pude hacer funcionar una matriz que fuera aumentando en tamaño conforme el encuestador añadiera mas gente conforme encuestaba.
+       */
     }
     public static int tamaño()
     {
