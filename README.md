@@ -1,3 +1,3 @@
 # tareas
 
-Profe! si esta leyendo esto, es que me la gano github, son las 13:00 y aún no entiendo como subir los archivos
+Profe! si esta leyendo esto, es que me aún no descubro como hacer un directorio (para tarea1508) dentro de tareas, estoy en ello.
