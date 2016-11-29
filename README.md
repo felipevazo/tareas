@@ -1,3 +1,20 @@
-# tareas
 
-Profe! si esta leyendo esto, es que me aún no descubro como hacer un directorio (para tarea1508) dentro de tareas, estoy en ello.
+function Producto () {
+  this.codigo=123;
+  this.nombre="NombreProducto";
+}
+function Desarrolador()
+{ this.Nombre="Feilpe";
+}
+
+
+
+
+function Software()
+{
+}
+Software.prototype=new Producto();
+Software.prototype.licencia="NombreLicencia";
+Software.prototype.version="Version";
+Software.prototype.setLicencia=function(String
+
