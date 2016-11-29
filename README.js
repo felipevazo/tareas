@@ -1,7 +1,7 @@
 
 function Producto () {
   this.codigo=123;
-  this.nombre="NombreProducto";
+   var nombre="NombreProducto";
 }
 function Desarrolador()
 { this.Nombre="Feilpe";
